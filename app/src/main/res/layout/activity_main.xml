@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/glideFotoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="glideFoto"
+        android:text="GLIDE Foto" />
+
+    <Button
+        android:id="@+id/picassoFotoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="picassoFoto"
+        android:text="PICASSO FOTO" />
+
+    <Button
+        android:id="@+id/glideGifid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="glideGif"
+        android:text="GLIDE GIF" />
+
+    <Button
+        android:id="@+id/picassoGifid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="picassoGif"
+        android:text="PICASSO GIF"
+         />
+
+
+</LinearLayout>
